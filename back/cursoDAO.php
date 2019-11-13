@@ -1,7 +1,7 @@
 <?php
     class CursoDao {
         private function getConexao () {
-            $con = new PDO("pgsql:host=localhost;dbname=postgres;port=5432", "postgres", "postgres");
+            $con = new PDO("pgsql:host=localhost;dbname=academico;port=5432", "postgres", "postgres");
             return $con;
         }
 
